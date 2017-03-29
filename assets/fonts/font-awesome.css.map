@@ -1,0 +1,16 @@
+
+Task	What to do
+Investigation	
+Find QPS
+→ number of times the shopper/merchant/search (App) and available/merchant/list (Web) API have been accessed.
+Plan	
+Test plan with calculated QPS.
+Use Test Data instead of single value for latitude, longitude & keywords.
+Execution	
+Use JMeter to run the TestPlan.
+Result	
+Parameters to consider
+→ The response time in case of increased requests.
+→ The changes in response time for different search Keywords.
+→ The behavior database due to the load.
+→ Java Heap memory.
