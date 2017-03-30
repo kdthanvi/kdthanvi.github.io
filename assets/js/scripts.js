@@ -167,5 +167,18 @@ Version      : 1.0
         
         
     });
+    
+    /*
+    * get in touch
+    */
+    $(document).ready(function() {
+    $('#submitButton').click(function() {
+        $('#contact-form').attr('action',
+                       'mailto:thanvikaran95@gmail.com?subject=' + '[githubPages]' +
+                       $('#first-name').val() + '&body=' + 'email ID: ' + $('email').val() + 
+                       'I would like to tell/ask you : ' + $('#description').val());
+        $('#contact-form').submit();
+    });
+});
 
 })(jQuery);
