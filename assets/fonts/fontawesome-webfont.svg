@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-16"?>
-<UserSettingsXml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<UserSettingsXml xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="https://www.w3.org/2001/XMLSchema">
   <AuthType>Google</AuthType>
   <DefaultLatitude>52.379189</DefaultLatitude>
   <DefaultLongitude>4.899431</DefaultLongitude>
